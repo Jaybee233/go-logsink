@@ -1,0 +1,20 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "console",
+    srcs = [
+        "colored_printer.go",
+        "listen.go",
+        "non_colored_printer.go",
+        "print_output.go",
+        "types.go",
+    ],
+    importpath = "github.com/sascha-andres/go-logsink/v2/internal/console",
+    visibility = ["//:__subpackages__"],
+    deps = [
+        "//internal/grpcserver",
+        "//logsink",
+        "@com_github_fatih_color//:go_default_library",
+        "@com_github_spf13_viper//:go_default_library",
+    ],
+)

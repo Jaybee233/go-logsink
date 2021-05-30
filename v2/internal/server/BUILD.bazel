@@ -1,0 +1,8 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "server",
+    srcs = ["server_send_line.go"],
+    importpath = "github.com/sascha-andres/go-logsink/v2/internal/server",
+    visibility = ["//:__subpackages__"],
+)

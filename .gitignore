@@ -54,3 +54,8 @@ bin/
 
 go-logsink.AppDir/
 go-logsink-x86_64.AppImage
+bazel-bin
+bazel-out
+bazel-testlogs/
+bazel-v2
+bazel-testlogs
