@@ -35,7 +35,7 @@ import (
 
 	"github.com/rakyll/statik/fs"
 
-	_ "github.com/sascha-andres/go-logsink/web/statik" // get access to data
+	_ "github.com/Jaybee233/go-logsink/web/statik" // get access to data
 )
 
 var (

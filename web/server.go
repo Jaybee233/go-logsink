@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 
-	pb "github.com/sascha-andres/go-logsink/logsink"
+	pb "github.com/Jaybee233/go-logsink/logsink"
 )
 
 // server is used to implement logsink.LogTransferServer.

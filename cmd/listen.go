@@ -14,7 +14,7 @@
 package cmd
 
 import (
-	"github.com/sascha-andres/go-logsink/server"
+	"github.com/Jaybee233/go-logsink/server"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

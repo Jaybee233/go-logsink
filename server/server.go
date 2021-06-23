@@ -19,7 +19,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	pb "github.com/sascha-andres/go-logsink/logsink"
+	pb "github.com/Jaybee233/go-logsink/logsink"
 	"github.com/spf13/viper"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"

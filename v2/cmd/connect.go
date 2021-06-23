@@ -15,7 +15,7 @@
 package cmd
 
 import (
-	client2 "github.com/sascha-andres/go-logsink/v2/internal/client"
+	client2 "github.com/Jaybee233/go-logsink/v2/internal/client"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
